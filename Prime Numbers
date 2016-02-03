@@ -1,0 +1,13 @@
+primeList = []
+for num in range(101):
+    
+    if (num ==1):
+        pass
+    elif (num == 2 or num == 3 or num == 5 or num == 7 or num == 11):
+        primeList.append(num)
+    elif (num % 2 == 0 or num % 3 == 0 or num % 5 == 0 or num % 11 == 0):
+        pass
+    else:
+        primeList.append(num)
+
+print(primeList)
