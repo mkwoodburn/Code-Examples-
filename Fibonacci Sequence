@@ -1,0 +1,13 @@
+# Matthew Woodburn
+# Fibonacci Sequence Code
+
+fibList = [0,1] # Begins the list for the Fibonacci Sequence
+number = 10 # Sets loop for 10 times 
+
+while (number > 0):
+    
+    fibList.append((fibList[len(fibList)-1]) + \
+                   fibList[len(fibList)-2]) # Add the last and second to last numbers together and appends list
+    number -= 1 # Reduces by one each loop
+
+print(fibList)
